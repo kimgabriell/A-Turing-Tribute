@@ -1,0 +1,106 @@
+body {
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 30px;
+}
+
+.container-1 {
+    border: 1px solid black;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin: auto;
+}
+
+.container-1 div img {
+    display: flex;
+    box-shadow: 0px 2px 45px 0px rgba(0,0,0,1);
+    border-radius: 6%;
+    width: 50%;
+    margin: 12px auto 20px;
+}
+
+.title-container img:hover {
+    box-shadow: 0px 2px 150px 0px rgba(0,0,0,1);
+    transition: all 0.5s ease;
+}
+
+.title-container {
+    border: 1px solid black;
+}
+
+.titleText-1{
+    text-align: center;
+}
+
+.titleText-2{
+    text-align: center;
+    font-family: sofia;
+    font-size: 110%;
+}
+
+/*----------------para-----------------------------*/
+
+.boldText {
+    font-size: 25px;
+}
+
+.boldTextHeading {
+    font-size: 30px;
+    /*overwriting css
+    text-align: left;*/
+    color: black;
+}
+
+.bioText-1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    font-size: 120%;
+    font-weight: 900;
+    text-align: center;
+    line-height: 200%;
+}
+
+/*----img & text container-----*/
+.bioText-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    font-size: 120%;
+    font-weight: 900;
+    text-align: center;
+    line-height: 200%;
+}
+
+.bioText-2 p {
+    margin: 0;
+    padding-left: 0%;
+}
+
+footer {
+    background-color: black;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 200%;
+    overflow: hidden;
+}
+
+footer .button-container{
+    margin: 5px 0 0 25px;
+    font-size: 25px;
+    transition: all 0.5s ease;
+}
+
+footer button{
+    background-color: black;
+    border: none;
+}
+
+footer .button-container:hover {
+    color: white;
+}
