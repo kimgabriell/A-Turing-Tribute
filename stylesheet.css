@@ -3,6 +3,13 @@ body {
     margin-left: 70px;
     margin-right: 70px;
     margin-bottom: 30px;
+    background-image: linear-gradient(
+        #4A707A,
+        #7697A0,
+        #94B0B7,
+        #C2C8C5,
+        #DDDDDA
+    );
 }
 
 .container-1 {
